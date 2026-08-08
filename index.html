@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[SEU NOME AQUI] Advocacia — Protótipo</title>
+<meta name="description" content="Site institucional — protótipo em construção.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<!-- Aviso de protótipo -->
+<div class="proto-banner" id="protoBanner">
+  <p>🚧 <strong>Isso aqui é só o esqueleto do site</strong> — nome, foto, área de atuação e textos são só placeholder pra você ter uma ideia do estilo. Manda as infos de verdade que a gente troca tudo.</p>
+  <button id="protoBannerClose" aria-label="Fechar aviso">&times;</button>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">[SUAS INICIAIS]<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link">Início</a>
+      <a href="#sobre" class="nav__link">Sobre</a>
+      <a href="#areas" class="nav__link">Áreas de Atuação</a>
+      <a href="#diferenciais" class="nav__link">Diferenciais</a>
+      <a href="#depoimentos" class="nav__link">Depoimentos</a>
+      <a href="#contato" class="nav__link">Contato</a>
+    </nav>
+
+    <a href="#contato" class="btn btn--small btn--primary nav__cta">Fale Comigo</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__blobs" aria-hidden="true">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+  </div>
+
+  <div class="container hero__inner">
+    <div class="hero__text reveal">
+      <p class="eyebrow">Advogado(a) — OAB [UF] nº [00.000]</p>
+      <h1>[SEU NOME COMPLETO AQUI, CRAQUE] <br> vai ficar bonito bem aqui</h1>
+      <p class="hero__lead">
+        Espaço pra sua frase de efeito: o que você resolve, pra quem, e por que
+        a pessoa deveria te chamar em vez de ficar rolando o Google até 3h da manhã.
+        <em>(troca esse texto por algo que fale da tua área de verdade)</em>
+      </p>
+      <div class="hero__cta">
+        <a href="#contato" class="btn btn--primary">Agendar uma Consulta</a>
+        <a href="#areas" class="btn btn--ghost">Ver Áreas de Atuação</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num" data-count="0">0</span>
+          <span class="stat__label">processos perdidos<br>(mentira, mas fica bonito)</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="100">0</span>
+          <span class="stat__label">% de dedicação<br>no seu caso</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="1">0</span>
+          <span class="stat__label">OAB na mão<br>e com muita vontade</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__photo reveal reveal--delay">
+      <div class="photo-frame">
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <p>foto sua aqui, de terno,<br>cara séria — nada de<br>foto de festa, hein</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#sobre" class="scroll-indicator" aria-label="Rolar para baixo">
+    <span></span>
+  </a>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="container sobre__inner">
+    <div class="sobre__photo reveal">
+      <div class="photo-frame photo-frame--small">
+        <div class="photo-placeholder">
+          <span>🙂</span>
+          <p>outra foto sua,<br>menos séria essa</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sobre__text reveal">
+      <p class="eyebrow">Sobre</p>
+      <h2>Quem é [seu nome aqui]?</h2>
+      <p>
+        Conta sua história em 2 ou 3 parágrafos: onde estudou, quando se formou,
+        por que escolheu Direito, e o que te deixa animado(a) em ajudar as pessoas
+        na sua área. Pode falar da OAB recém-tirada com orgulho — todo mundo começa
+        de algum lugar.
+      </p>
+      <p>
+        <em>(esse é o parágrafo 2, apaga se achar que ficou grande demais.
+        O objetivo aqui é passar confiança, não escrever uma tese)</em>
+      </p>
+
+      <ul class="sobre__list">
+        <li>🎓 Formado(a) em [Faculdade aqui], [ano aqui]</li>
+        <li>⚖️ OAB/[UF] nº [00.000]</li>
+        <li>📍 Atende em [Cidade/UF aqui]</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ÁREAS DE ATUAÇÃO -->
+<section class="areas" id="areas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Áreas de Atuação</p>
+      <h2>No que eu posso te ajudar</h2>
+      <p class="section-head__sub">
+        Ainda não sei quais são suas áreas de verdade — chutei umas comuns aqui embaixo
+        só pra preencher o layout. Troca pelas que fazem sentido pra você (pode ser uma só!).
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card reveal">
+        <div class="card__icon">🏠</div>
+        <h3>Direito Civil</h3>
+        <p>Contratos, indenizações, questões de vizinhança e do dia a dia. (exemplo — edite)</p>
+      </div>
+      <div class="card reveal">
+        <div class="card__icon">💼</div>
+        <h3>Direito Trabalhista</h3>
+        <p>Rescisões, verbas, assédio, horas extras. (exemplo — edite)</p>
+      </div>
+      <div class="card reveal">
+        <div class="card__icon">👨‍👩‍👧</div>
+        <h3>Direito de Família</h3>
+        <p>Divórcio, guarda, pensão alimentícia, inventário. (exemplo — edite)</p>
+      </div>
+      <div class="card reveal">
+        <div class="card__icon">🛒</div>
+        <h3>Direito do Consumidor</h3>
+        <p>Produto com defeito, cobrança indevida, nome sujo indevido. (exemplo — edite)</p>
+      </div>
+      <div class="card reveal">
+        <div class="card__icon">🏢</div>
+        <h3>Direito Empresarial</h3>
+        <p>Abertura de empresa, contratos comerciais, societário. (exemplo — edite)</p>
+      </div>
+      <div class="card reveal">
+        <div class="card__icon">❓</div>
+        <h3>[Sua área de verdade]</h3>
+        <p>Me manda qual é a área e eu troco esse card por ela.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="diferenciais" id="diferenciais">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Por que eu?</p>
+      <h2>Diferenciais</h2>
+    </div>
+
+    <div class="cards-grid cards-grid--4">
+      <div class="card card--outline reveal">
+        <div class="card__icon">🤝</div>
+        <h3>Atendimento Próximo</h3>
+        <p>Sem juridiquês incompreensível. Você entende cada passo do seu processo.</p>
+      </div>
+      <div class="card card--outline reveal">
+        <div class="card__icon">🔍</div>
+        <h3>Transparência Total</h3>
+        <p>Honorários claros desde o início, sem letra miúda nem susto no meio do caminho.</p>
+      </div>
+      <div class="card card--outline reveal">
+        <div class="card__icon">⚡</div>
+        <h3>Agilidade</h3>
+        <p>Retorno rápido e acompanhamento constante — seu caso não fica esquecido na gaveta.</p>
+      </div>
+      <div class="card card--outline reveal">
+        <div class="card__icon">🛡️</div>
+        <h3>Ética Acima de Tudo</h3>
+        <p>Compromisso com o Código de Ética da OAB em cada atendimento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depoimentos" id="depoimentos">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Depoimentos</p>
+      <h2>O que dizem por aí</h2>
+      <p class="section-head__sub">(fictícios, é claro — troque por depoimentos reais assim que tiver alguns)</p>
+    </div>
+
+    <div class="testimonial-slider reveal">
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial">
+          <p>"Resolveu meu problema rapidinho e ainda me explicou tudo com calma. Recomendo demais!"</p>
+          <span>— Cliente Fictício nº 1</span>
+        </div>
+        <div class="testimonial">
+          <p>"Profissional super atencioso, sempre me manteve informado sobre o andamento do processo."</p>
+          <span>— Cliente Fictício nº 2</span>
+        </div>
+        <div class="testimonial">
+          <p>"Confiança de olhos fechados. Se precisar de novo, já sei quem chamar."</p>
+          <span>— Cliente Fictício nº 3</span>
+        </div>
+      </div>
+      <div class="testimonial-dots" id="testimonialDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contato" id="contato">
+  <div class="container contato__inner">
+    <div class="contato__info reveal">
+      <p class="eyebrow">Contato</p>
+      <h2>Vamos conversar</h2>
+      <p class="contato__sub">Preencha o formulário ou chama direto nos contatos abaixo.</p>
+
+      <ul class="contato__list">
+        <li>📞 <a href="tel:+5500000000000">(00) 00000-0000</a></li>
+        <li>✉️ <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+        <li>📍 [Endereço do escritório aqui, ou "Atendimento 100% online"]</li>
+        <li>⚖️ OAB/[UF] nº [00.000]</li>
+      </ul>
+
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="LinkedIn">In</a>
+        <a href="#" aria-label="WhatsApp">Zap</a>
+      </div>
+    </div>
+
+    <form class="contato__form reveal reveal--delay" id="contactForm">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu caso..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+      <p class="form-note">* formulário de demonstração — ainda não está conectado a nada.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <a href="#inicio" class="logo logo--footer">[SUAS INICIAIS]<span>.</span></a>
+      <p>[Seu Nome Completo Aqui] — Advocacia<br>OAB/[UF] nº [00.000]</p>
+    </div>
+
+    <nav class="footer__nav">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#areas">Áreas de Atuação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <p class="footer__copy">© <span id="year"></span> [Seu Nome Aqui]. Protótipo de site — todos os direitos reservados a quem de direito (literalmente).</p>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" aria-label="Fale no WhatsApp">💬</a>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
