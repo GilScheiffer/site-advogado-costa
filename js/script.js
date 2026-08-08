@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      showToast('Formulário de demonstração — conecte a um e-mail/WhatsApp real depois 😉');
+      showToast('Formulário de demonstração — ainda não está conectado a nenhum destino real.');
       form.reset();
     });
   }
